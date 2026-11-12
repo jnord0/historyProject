@@ -1,0 +1,301 @@
+modern_title,modern_year,method,rank,historical_title,historical_year
+2003 Boumerdès earthquake,2003.0,bertscore,1,1668 North Anatolia earthquake,1668.0
+2003 Boumerdès earthquake,2003.0,bertscore,2,1960 Agadir earthquake,1960.0
+2003 Boumerdès earthquake,2003.0,bertscore,3,1939 Erzincan earthquake,1939.0
+2003 Boumerdès earthquake,2003.0,bertscore,4,856 Damghan earthquake,856.0
+2003 Boumerdès earthquake,2003.0,bertscore,5,1935 Quetta earthquake,1935.0
+2003 Boumerdès earthquake,2003.0,embed,1,1802 Vrancea earthquake,1802.0
+2003 Boumerdès earthquake,2003.0,embed,2,1668 North Anatolia earthquake,1668.0
+2003 Boumerdès earthquake,2003.0,embed,3,1999 İzmit earthquake,1999.0
+2003 Boumerdès earthquake,2003.0,embed,4,1939 Erzincan earthquake,1939.0
+2003 Boumerdès earthquake,2003.0,embed,5,1303 Crete earthquake,1303.0
+2003 Boumerdès earthquake,2003.0,tfidf,1,1915 Avezzano earthquake,1915.0
+2003 Boumerdès earthquake,2003.0,tfidf,2,1976 Çaldıran–Muradiye earthquake,1976.0
+2003 Boumerdès earthquake,2003.0,tfidf,3,1979 Montenegro earthquake,1979.0
+2003 Boumerdès earthquake,2003.0,tfidf,4,1908 Messina earthquake,1908.0
+2003 Boumerdès earthquake,2003.0,tfidf,5,1935 Quetta earthquake,1935.0
+2005 Nias–Simeulue earthquake,2005.0,bertscore,1,1992 Flores earthquake and tsunami,1992.0
+2005 Nias–Simeulue earthquake,2005.0,bertscore,2,1964 Niigata earthquake,1964.0
+2005 Nias–Simeulue earthquake,2005.0,bertscore,3,1990 Luzon earthquake,1990.0
+2005 Nias–Simeulue earthquake,2005.0,bertscore,4,1998 Papua New Guinea earthquake,1998.0
+2005 Nias–Simeulue earthquake,2005.0,bertscore,5,1990 Manjil–Rudbar earthquake,1990.0
+2005 Nias–Simeulue earthquake,2005.0,embed,1,1964 Niigata earthquake,1964.0
+2005 Nias–Simeulue earthquake,2005.0,embed,2,1992 Flores earthquake and tsunami,1992.0
+2005 Nias–Simeulue earthquake,2005.0,embed,3,1999 İzmit earthquake,1999.0
+2005 Nias–Simeulue earthquake,2005.0,embed,4,1993 Latur earthquake,1993.0
+2005 Nias–Simeulue earthquake,2005.0,embed,5,1498 Meiō earthquake,1498.0
+2005 Nias–Simeulue earthquake,2005.0,tfidf,1,Padri Wars,1803.0
+2005 Nias–Simeulue earthquake,2005.0,tfidf,2,1700 Cascadia earthquake,1700.0
+2005 Nias–Simeulue earthquake,2005.0,tfidf,3,1992 Nicaragua earthquake,1992.0
+2005 Nias–Simeulue earthquake,2005.0,tfidf,4,1949 Ambato earthquake,1949.0
+2005 Nias–Simeulue earthquake,2005.0,tfidf,5,869 Jōgan earthquake,869.0
+2009 Honduran coup d'état,2009.0,bertscore,1,1973 Chilean coup d'état,1973.0
+2009 Honduran coup d'état,2009.0,bertscore,2,Costa Rican Civil War,1948.0
+2009 Honduran coup d'état,2009.0,bertscore,3,1981 Spanish coup attempt,1981.0
+2009 Honduran coup d'état,2009.0,bertscore,4,1976 Argentine coup d'état,1976.0
+2009 Honduran coup d'état,2009.0,bertscore,5,1954 Guatemalan coup d'état,1954.0
+2009 Honduran coup d'état,2009.0,embed,1,1954 Guatemalan coup d'état,1954.0
+2009 Honduran coup d'état,2009.0,embed,2,Ten Tragic Days,1913.0
+2009 Honduran coup d'état,2009.0,embed,3,1964 Brazilian coup d'état,1964.0
+2009 Honduran coup d'état,2009.0,embed,4,Salvadoran Civil War,1979.0
+2009 Honduran coup d'état,2009.0,embed,5,Dominican Civil War,1965.0
+2009 Honduran coup d'état,2009.0,tfidf,1,Palace of Justice siege,1985.0
+2009 Honduran coup d'état,2009.0,tfidf,2,Football War,1969.0
+2009 Honduran coup d'état,2009.0,tfidf,3,Costa Rican Civil War,1948.0
+2009 Honduran coup d'état,2009.0,tfidf,4,1943 Argentine Revolution,1943.0
+2009 Honduran coup d'état,2009.0,tfidf,5,1999 Pakistani coup d'état,1999.0
+2010 Yushu earthquake,2010.0,bertscore,1,1950 Assam–Tibet earthquake,1950.0
+2010 Yushu earthquake,2010.0,bertscore,2,1935 Shinchiku-Taichū earthquake,1935.0
+2010 Yushu earthquake,2010.0,bertscore,3,1668 Shandong earthquake,1668.0
+2010 Yushu earthquake,2010.0,bertscore,4,Kobe earthquake,1995.0
+2010 Yushu earthquake,2010.0,bertscore,5,1970 Tonghai earthquake,1970.0
+2010 Yushu earthquake,2010.0,embed,1,1970 Tonghai earthquake,1970.0
+2010 Yushu earthquake,2010.0,embed,2,1668 Shandong earthquake,1668.0
+2010 Yushu earthquake,2010.0,embed,3,1950 Assam–Tibet earthquake,1950.0
+2010 Yushu earthquake,2010.0,embed,4,Kobe earthquake,1995.0
+2010 Yushu earthquake,2010.0,embed,5,1556 Shaanxi earthquake,1556.0
+2010 Yushu earthquake,2010.0,tfidf,1,Sino-Tibetan War of 1930–1932,1930.0
+2010 Yushu earthquake,2010.0,tfidf,2,1950 Assam–Tibet earthquake,1950.0
+2010 Yushu earthquake,2010.0,tfidf,3,1935 Quetta earthquake,1935.0
+2010 Yushu earthquake,2010.0,tfidf,4,1935 Shinchiku-Taichū earthquake,1935.0
+2010 Yushu earthquake,2010.0,tfidf,5,1964 Niigata earthquake,1964.0
+2011 Egyptian revolution,2011.0,bertscore,1,14 July Revolution,1958.0
+2011 Egyptian revolution,2011.0,bertscore,2,Algerian Civil War,1992.0
+2011 Egyptian revolution,2011.0,bertscore,3,Cairo fire,1952.0
+2011 Egyptian revolution,2011.0,bertscore,4,1999 Iranian student protests,1999.0
+2011 Egyptian revolution,2011.0,bertscore,5,Egyptian revolution of 1952,1952.0
+2011 Egyptian revolution,2011.0,embed,1,Cairo fire,1952.0
+2011 Egyptian revolution,2011.0,embed,2,Egyptian revolution of 1952,1952.0
+2011 Egyptian revolution,2011.0,embed,3,Protests of 1968,1968.0
+2011 Egyptian revolution,2011.0,embed,4,1991 protests in Belgrade,1991.0
+2011 Egyptian revolution,2011.0,embed,5,1964 Hama riot,1964.0
+2011 Egyptian revolution,2011.0,tfidf,1,1919 Egyptian revolution,1919.0
+2011 Egyptian revolution,2011.0,tfidf,2,1932 Prussian coup d'état,1932.0
+2011 Egyptian revolution,2011.0,tfidf,3,Algerian Civil War,1992.0
+2011 Egyptian revolution,2011.0,tfidf,4,1999 Pakistani coup d'état,1999.0
+2011 Egyptian revolution,2011.0,tfidf,5,Romanian revolution,1989.0
+2012 Romanian protests,2012.0,bertscore,1,1991 protests in Belgrade,1991.0
+2012 Romanian protests,2012.0,bertscore,2,1999 Iranian student protests,1999.0
+2012 Romanian protests,2012.0,bertscore,3,Golaniad,1990.0
+2012 Romanian protests,2012.0,bertscore,4,Romanian revolution,1989.0
+2012 Romanian protests,2012.0,bertscore,5,Wallachian Revolution of 1848,1848.0
+2012 Romanian protests,2012.0,embed,1,1991 protests in Belgrade,1991.0
+2012 Romanian protests,2012.0,embed,2,Golaniad,1990.0
+2012 Romanian protests,2012.0,embed,3,Romanian revolution,1989.0
+2012 Romanian protests,2012.0,embed,4,Revolution on Granite,1990.0
+2012 Romanian protests,2012.0,embed,5,1907 Romanian peasants' revolt,1907.0
+2012 Romanian protests,2012.0,tfidf,1,Golaniad,1990.0
+2012 Romanian protests,2012.0,tfidf,2,1999 Seattle WTO protests,1999.0
+2012 Romanian protests,2012.0,tfidf,3,Romanian revolution,1989.0
+2012 Romanian protests,2012.0,tfidf,4,1999 Iranian student protests,1999.0
+2012 Romanian protests,2012.0,tfidf,5,Hungarian–Romanian War,1919.0
+2015–2016 Lebanese protests,2015.0,bertscore,1,Lebanese Civil War,1975.0
+2015–2016 Lebanese protests,2015.0,bertscore,2,Protests of 1968,1968.0
+2015–2016 Lebanese protests,2015.0,bertscore,3,1999 Iranian student protests,1999.0
+2015–2016 Lebanese protests,2015.0,bertscore,4,March First Movement,1919.0
+2015–2016 Lebanese protests,2015.0,bertscore,5,People Power Revolution,1986.0
+2015–2016 Lebanese protests,2015.0,embed,1,Lebanese Civil War,1975.0
+2015–2016 Lebanese protests,2015.0,embed,2,1958 Lebanon crisis,1958.0
+2015–2016 Lebanese protests,2015.0,embed,3,1920 Nebi Musa riots,1920.0
+2015–2016 Lebanese protests,2015.0,embed,4,1999 Iranian student protests,1999.0
+2015–2016 Lebanese protests,2015.0,embed,5,South Lebanon conflict (1985–2000),1985.0
+2015–2016 Lebanese protests,2015.0,tfidf,1,1958 Lebanon crisis,1958.0
+2015–2016 Lebanese protests,2015.0,tfidf,2,Lebanese Civil War,1975.0
+2015–2016 Lebanese protests,2015.0,tfidf,3,Great Famine of Mount Lebanon,1915.0
+2015–2016 Lebanese protests,2015.0,tfidf,4,1983 US embassy bombing in Beirut,1983.0
+2015–2016 Lebanese protests,2015.0,tfidf,5,1860 civil conflict in Mount Lebanon and Damascus,1860.0
+2020 Nashville bombing,2020.0,bertscore,1,Centennial Olympic Park bombing,1996.0
+2020 Nashville bombing,2020.0,bertscore,2,Hipercor bombing,1987.0
+2020 Nashville bombing,2020.0,bertscore,3,Piazza Fontana bombing,1969.0
+2020 Nashville bombing,2020.0,bertscore,4,Continental Airlines Flight 11,1962.0
+2020 Nashville bombing,2020.0,bertscore,5,Avivim school bus bombing,1970.0
+2020 Nashville bombing,2020.0,embed,1,Oklahoma City bombing,1995.0
+2020 Nashville bombing,2020.0,embed,2,Continental Airlines Flight 11,1962.0
+2020 Nashville bombing,2020.0,embed,3,Piazza Fontana bombing,1969.0
+2020 Nashville bombing,2020.0,embed,4,1983 Beirut barracks bombings,1983.0
+2020 Nashville bombing,2020.0,embed,5,Centennial Olympic Park bombing,1996.0
+2020 Nashville bombing,2020.0,tfidf,1,Battle of Nashville,1864.0
+2020 Nashville bombing,2020.0,tfidf,2,Centennial Olympic Park bombing,1996.0
+2020 Nashville bombing,2020.0,tfidf,3,16th Street Baptist Church bombing,1963.0
+2020 Nashville bombing,2020.0,tfidf,4,Oklahoma City bombing,1995.0
+2020 Nashville bombing,2020.0,tfidf,5,Pan Am Flight 103,1988.0
+2025 Manchester synagogue attack,2025.0,bertscore,1,1985 Copenhagen bombings,1985.0
+2025 Manchester synagogue attack,2025.0,bertscore,2,Avivim school bus bombing,1970.0
+2025 Manchester synagogue attack,2025.0,bertscore,3,Warrington bombings,1993.0
+2025 Manchester synagogue attack,2025.0,bertscore,4,1993 Solingen arson attack,1993.0
+2025 Manchester synagogue attack,2025.0,bertscore,5,Luxor massacre,1997.0
+2025 Manchester synagogue attack,2025.0,embed,1,1985 Copenhagen bombings,1985.0
+2025 Manchester synagogue attack,2025.0,embed,2,Warrington bombings,1993.0
+2025 Manchester synagogue attack,2025.0,embed,3,Hipercor bombing,1987.0
+2025 Manchester synagogue attack,2025.0,embed,4,Lisbon massacre,1506.0
+2025 Manchester synagogue attack,2025.0,embed,5,1993 Solingen arson attack,1993.0
+2025 Manchester synagogue attack,2025.0,tfidf,1,1985 Copenhagen bombings,1985.0
+2025 Manchester synagogue attack,2025.0,tfidf,2,Luxor massacre,1997.0
+2025 Manchester synagogue attack,2025.0,tfidf,3,1996 Manchester bombing,1996.0
+2025 Manchester synagogue attack,2025.0,tfidf,4,Avivim school bus bombing,1970.0
+2025 Manchester synagogue attack,2025.0,tfidf,5,Tokyo subway sarin attack,1995.0
+21 Coptic Christian Martyrs of Libya,2015.0,bertscore,1,Murder of the monks of Tibhirine,1996.0
+21 Coptic Christian Martyrs of Libya,2015.0,bertscore,2,Pan Am Flight 103,1988.0
+21 Coptic Christian Martyrs of Libya,2015.0,bertscore,3,Munich massacre,1972.0
+21 Coptic Christian Martyrs of Libya,2015.0,bertscore,4,Coastal road massacre,1978.0
+21 Coptic Christian Martyrs of Libya,2015.0,bertscore,5,Semiramis Hotel bombing,1948.0
+21 Coptic Christian Martyrs of Libya,2015.0,embed,1,Luxor massacre,1997.0
+21 Coptic Christian Martyrs of Libya,2015.0,embed,2,Pan Am Flight 103,1988.0
+21 Coptic Christian Martyrs of Libya,2015.0,embed,3,1999 Iranian student protests,1999.0
+21 Coptic Christian Martyrs of Libya,2015.0,embed,4,Semiramis Hotel bombing,1948.0
+21 Coptic Christian Martyrs of Libya,2015.0,embed,5,1983 Beirut barracks bombings,1983.0
+21 Coptic Christian Martyrs of Libya,2015.0,tfidf,1,Murder of the monks of Tibhirine,1996.0
+21 Coptic Christian Martyrs of Libya,2015.0,tfidf,2,Battle of Avarayr,451.0
+21 Coptic Christian Martyrs of Libya,2015.0,tfidf,3,Ottoman conquest of Otranto,1481.0
+21 Coptic Christian Martyrs of Libya,2015.0,tfidf,4,Roman–Sasanian War of 421–422,421.0
+21 Coptic Christian Martyrs of Libya,2015.0,tfidf,5,Gospel riots,1901.0
+Battle of Tora Bora,2001.0,bertscore,1,Afghan Civil War (1996–2001),1996.0
+Battle of Tora Bora,2001.0,bertscore,2,Afghan conflict,1978.0
+Battle of Tora Bora,2001.0,bertscore,3,Afghan Civil War (1992–1996),1992.0
+Battle of Tora Bora,2001.0,bertscore,4,Soviet–Afghan War,1979.0
+Battle of Tora Bora,2001.0,bertscore,5,Battle of Mogadishu (1993),1993.0
+Battle of Tora Bora,2001.0,embed,1,Afghan Civil War (1996–2001),1996.0
+Battle of Tora Bora,2001.0,embed,2,Battle of Kabul (1992–1996),1992.0
+Battle of Tora Bora,2001.0,embed,3,Battle of Mogadishu (1993),1993.0
+Battle of Tora Bora,2001.0,embed,4,Afghan Civil War (1992–1996),1992.0
+Battle of Tora Bora,2001.0,embed,5,Soviet–Afghan War,1979.0
+Battle of Tora Bora,2001.0,tfidf,1,Afghan conflict,1978.0
+Battle of Tora Bora,2001.0,tfidf,2,Afghan Civil War (1996–2001),1996.0
+Battle of Tora Bora,2001.0,tfidf,3,Afghan Civil War (1992–1996),1992.0
+Battle of Tora Bora,2001.0,tfidf,4,Soviet–Afghan War,1979.0
+Battle of Tora Bora,2001.0,tfidf,5,Afghan Civil War (1989–1992),1989.0
+Bombing of Borodianka,2022.0,bertscore,1,Battle of Kiev (1918),1918.0
+Bombing of Borodianka,2022.0,bertscore,2,Lviv pogroms (1941),1941.0
+Bombing of Borodianka,2022.0,bertscore,3,Battle of Smolensk (1812),1812.0
+Bombing of Borodianka,2022.0,bertscore,4,1999 Russian apartment bombings,1999.0
+Bombing of Borodianka,2022.0,bertscore,5,Battle of Borodino,1812.0
+Bombing of Borodianka,2022.0,embed,1,Battle of Borodino,1812.0
+Bombing of Borodianka,2022.0,embed,2,Battle of Bomarsund,1854.0
+Bombing of Borodianka,2022.0,embed,3,1999 Russian apartment bombings,1999.0
+Bombing of Borodianka,2022.0,embed,4,Battle of Krasny Bor,1943.0
+Bombing of Borodianka,2022.0,embed,5,Lithuanian–Muscovite War (1368–1372),1368.0
+Bombing of Borodianka,2022.0,tfidf,1,Hungarian invasion of Carpatho-Ukraine,1939.0
+Bombing of Borodianka,2022.0,tfidf,2,Russian invasion of East Prussia (1914),1914.0
+Bombing of Borodianka,2022.0,tfidf,3,Khivan campaign of 1839–1840,1839.0
+Bombing of Borodianka,2022.0,tfidf,4,Battle of Konotop,1659.0
+Bombing of Borodianka,2022.0,tfidf,5,Kiev offensive (1920),1920.0
+George W. Bush shoe-throwing incident,2008.0,bertscore,1,1985 Copenhagen bombings,1985.0
+George W. Bush shoe-throwing incident,2008.0,bertscore,2,Pan Am Flight 103,1988.0
+George W. Bush shoe-throwing incident,2008.0,bertscore,3,Haft-e Tir bombing,1981.0
+George W. Bush shoe-throwing incident,2008.0,bertscore,4,March 1949 Syrian coup d'état,1949.0
+George W. Bush shoe-throwing incident,2008.0,bertscore,5,Khobar Towers bombing,1996.0
+George W. Bush shoe-throwing incident,2008.0,embed,1,March 1949 Syrian coup d'état,1949.0
+George W. Bush shoe-throwing incident,2008.0,embed,2,Pan Am Flight 103,1988.0
+George W. Bush shoe-throwing incident,2008.0,embed,3,Farhud,1941.0
+George W. Bush shoe-throwing incident,2008.0,embed,4,Birmingham pub bombings,1974.0
+George W. Bush shoe-throwing incident,2008.0,embed,5,Haft-e Tir bombing,1981.0
+George W. Bush shoe-throwing incident,2008.0,tfidf,1,Farhud,1941.0
+George W. Bush shoe-throwing incident,2008.0,tfidf,2,14 July Revolution,1958.0
+George W. Bush shoe-throwing incident,2008.0,tfidf,3,1941 Iraqi coup d'état,1941.0
+George W. Bush shoe-throwing incident,2008.0,tfidf,4,Anglo-Iraqi War,1941.0
+George W. Bush shoe-throwing incident,2008.0,tfidf,5,Operation Scorch Sword,1980.0
+Hirak (Algeria),2019.0,bertscore,1,Chadian Civil War (1965–1979),1965.0
+Hirak (Algeria),2019.0,bertscore,2,1963 demonstrations in Iran,1963.0
+Hirak (Algeria),2019.0,bertscore,3,1999 Iranian student protests,1999.0
+Hirak (Algeria),2019.0,bertscore,4,April Revolution,1960.0
+Hirak (Algeria),2019.0,bertscore,5,Algerian War,1954.0
+Hirak (Algeria),2019.0,embed,1,Algiers putsch of 1961,1961.0
+Hirak (Algeria),2019.0,embed,2,Algerian Civil War,1992.0
+Hirak (Algeria),2019.0,embed,3,1991 protests in Belgrade,1991.0
+Hirak (Algeria),2019.0,embed,4,Egyptian revolution of 1952,1952.0
+Hirak (Algeria),2019.0,embed,5,Algerian War,1954.0
+Hirak (Algeria),2019.0,tfidf,1,Murder of the monks of Tibhirine,1996.0
+Hirak (Algeria),2019.0,tfidf,2,Algerian Civil War,1992.0
+Hirak (Algeria),2019.0,tfidf,3,Algerian War,1954.0
+Hirak (Algeria),2019.0,tfidf,4,People Power Revolution,1986.0
+Hirak (Algeria),2019.0,tfidf,5,Sand War,1963.0
+Kenya Finance Bill protests,2024.0,bertscore,1,1999 Iranian student protests,1999.0
+Kenya Finance Bill protests,2024.0,bertscore,2,1991 protests in Belgrade,1991.0
+Kenya Finance Bill protests,2024.0,bertscore,3,March First Movement,1919.0
+Kenya Finance Bill protests,2024.0,bertscore,4,Protests of 1968,1968.0
+Kenya Finance Bill protests,2024.0,bertscore,5,Cairo fire,1952.0
+Kenya Finance Bill protests,2024.0,embed,1,1991 protests in Belgrade,1991.0
+Kenya Finance Bill protests,2024.0,embed,2,1999 Seattle WTO protests,1999.0
+Kenya Finance Bill protests,2024.0,embed,3,Black May (Thailand),1992.0
+Kenya Finance Bill protests,2024.0,embed,4,May 1998 Indonesia riots,1998.0
+Kenya Finance Bill protests,2024.0,embed,5,March First Movement,1919.0
+Kenya Finance Bill protests,2024.0,tfidf,1,Caracazo,1989.0
+Kenya Finance Bill protests,2024.0,tfidf,2,Shifta War,1963.0
+Kenya Finance Bill protests,2024.0,tfidf,3,May 68,1968.0
+Kenya Finance Bill protests,2024.0,tfidf,4,1999 Iranian student protests,1999.0
+Kenya Finance Bill protests,2024.0,tfidf,5,1991 protests in Belgrade,1991.0
+Kissufim massacre,2023.0,bertscore,1,Avivim school bus bombing,1970.0
+Kissufim massacre,2023.0,bertscore,2,Haifa Oil Refinery massacre,1947.0
+Kissufim massacre,2023.0,bertscore,3,1973 Israeli raid in Lebanon,1973.0
+Kissufim massacre,2023.0,bertscore,4,Operation Grapes of Wrath,1996.0
+Kissufim massacre,2023.0,bertscore,5,1929 Hebron massacre,1929.0
+Kissufim massacre,2023.0,embed,1,Coastal road massacre,1978.0
+Kissufim massacre,2023.0,embed,2,Haifa Oil Refinery massacre,1947.0
+Kissufim massacre,2023.0,embed,3,1929 Hebron massacre,1929.0
+Kissufim massacre,2023.0,embed,4,1990 Temple Mount killings,1990.0
+Kissufim massacre,2023.0,embed,5,Operation Grapes of Wrath,1996.0
+Kissufim massacre,2023.0,tfidf,1,Night of the Gliders,1987.0
+Kissufim massacre,2023.0,tfidf,2,Iran–Israel proxy conflict,1985.0
+Kissufim massacre,2023.0,tfidf,3,Munich massacre,1972.0
+Kissufim massacre,2023.0,tfidf,4,Coastal road massacre,1978.0
+Kissufim massacre,2023.0,tfidf,5,Six-Day War,1967.0
+March for Our Lives,2018.0,bertscore,1,March on Washington,1963.0
+March for Our Lives,2018.0,bertscore,2,Million Man March,1995.0
+March for Our Lives,2018.0,bertscore,3,Silent Parade,1917.0
+March for Our Lives,2018.0,bertscore,4,Protests of 1968,1968.0
+March for Our Lives,2018.0,bertscore,5,1999 Seattle WTO protests,1999.0
+March for Our Lives,2018.0,embed,1,March First Movement,1919.0
+March for Our Lives,2018.0,embed,2,Protests of 1968,1968.0
+March for Our Lives,2018.0,embed,3,March on Washington,1963.0
+March for Our Lives,2018.0,embed,4,Silent Parade,1917.0
+March for Our Lives,2018.0,embed,5,Million Man March,1995.0
+March for Our Lives,2018.0,tfidf,1,1999 Seattle WTO protests,1999.0
+March for Our Lives,2018.0,tfidf,2,April Revolution,1960.0
+March for Our Lives,2018.0,tfidf,3,1991 protests in Belgrade,1991.0
+March for Our Lives,2018.0,tfidf,4,Million Man March,1995.0
+March for Our Lives,2018.0,tfidf,5,Oklahoma City bombing,1995.0
+March for Science,2017.0,bertscore,1,Million Man March,1995.0
+March for Science,2017.0,bertscore,2,March on Washington,1963.0
+March for Science,2017.0,bertscore,3,March First Movement,1919.0
+March for Science,2017.0,bertscore,4,Silent Parade,1917.0
+March for Science,2017.0,bertscore,5,Protests of 1968,1968.0
+March for Science,2017.0,embed,1,Million Man March,1995.0
+March for Science,2017.0,embed,2,March on Washington,1963.0
+March for Science,2017.0,embed,3,March First Movement,1919.0
+March for Science,2017.0,embed,4,Silent Parade,1917.0
+March for Science,2017.0,embed,5,1999 Seattle WTO protests,1999.0
+March for Science,2017.0,tfidf,1,Million Man March,1995.0
+March for Science,2017.0,tfidf,2,March on Washington,1963.0
+March for Science,2017.0,tfidf,3,Zoot Suit Riots,1943.0
+March for Science,2017.0,tfidf,4,White Night riots,1979.0
+March for Science,2017.0,tfidf,5,March First Movement,1919.0
+Orange Revolution,2004.0,bertscore,1,Velvet Revolution,1989.0
+Orange Revolution,2004.0,bertscore,2,1991 protests in Belgrade,1991.0
+Orange Revolution,2004.0,bertscore,3,Russian Revolution of 1905,1905.0
+Orange Revolution,2004.0,bertscore,4,Revolution on Granite,1990.0
+Orange Revolution,2004.0,bertscore,5,Protests of 1968,1968.0
+Orange Revolution,2004.0,embed,1,Revolution on Granite,1990.0
+Orange Revolution,2004.0,embed,2,1991 protests in Belgrade,1991.0
+Orange Revolution,2004.0,embed,3,Revolution in the Kingdom of Poland (1905–1907),1905.0
+Orange Revolution,2004.0,embed,4,Russian Revolution of 1905,1905.0
+Orange Revolution,2004.0,embed,5,Spartacist uprising,1919.0
+Orange Revolution,2004.0,tfidf,1,Revolution on Granite,1990.0
+Orange Revolution,2004.0,tfidf,2,People Power Revolution,1986.0
+Orange Revolution,2004.0,tfidf,3,Bolivarian Revolution,1999.0
+Orange Revolution,2004.0,tfidf,4,Mexican Revolution,1910.0
+Orange Revolution,2004.0,tfidf,5,May 68,1968.0
+Palmyra offensive (December 2016),2016.0,bertscore,1,Operation Dawn (1983),1983.0
+Palmyra offensive (December 2016),2016.0,bertscore,2,First Battle of al-Faw,1986.0
+Palmyra offensive (December 2016),2016.0,bertscore,3,Battle of Palmyra (1941),1941.0
+Palmyra offensive (December 2016),2016.0,bertscore,4,Capture of Baghdad (1624),1624.0
+Palmyra offensive (December 2016),2016.0,bertscore,5,Battle of Khafji,1991.0
+Palmyra offensive (December 2016),2016.0,embed,1,Battle of Palmyra (1941),1941.0
+Palmyra offensive (December 2016),2016.0,embed,2,Battle of Fahl,635.0
+Palmyra offensive (December 2016),2016.0,embed,3,Operation Dawn (1983),1983.0
+Palmyra offensive (December 2016),2016.0,embed,4,Second Battle of al-Faw,1988.0
+Palmyra offensive (December 2016),2016.0,embed,5,Siege of Damascus (634),634.0
+Palmyra offensive (December 2016),2016.0,tfidf,1,Battle of Palmyra (1941),1941.0
+Palmyra offensive (December 2016),2016.0,tfidf,2,Operation Tariq al-Quds,1981.0
+Palmyra offensive (December 2016),2016.0,tfidf,3,Battle of Lopera,1936.0
+Palmyra offensive (December 2016),2016.0,tfidf,4,Operation Morvarid,1980.0
+Palmyra offensive (December 2016),2016.0,tfidf,5,March 1949 Syrian coup d'état,1949.0
