@@ -66,16 +66,19 @@ RESPONSES = os.path.join(RESULTS, "ai_responses.jsonl")
 RANKINGS = os.path.join(RESULTS, "ai_rankings.csv")
 
 INSTRUCTIONS = """
-
-your job is to take a historical and a modern event and then analyze them to dig out; 
-context, possible meanings/implications, a timeline of the event and its causes and effects, 
+You will be given one modern event and a numbered list of historical events.
+your job is to analyze them from only info given to you; 
+this can be anything from context, possible meanings/implications, a timeline of the event and its causes and effects, 
 dynamics or actors involved, and to gather other details that are beyond surface level. 
 
 You are not allowed to access the web, rely on any historical data you were trained on, or any other external sources.
 It is acceptable if nothing is similar, you do not have to force a match. that being said ensure you thoroughly analyze the events.
 
-when comparing the two events, use the details you find when digging into the events to create their ranking.
+when comparing the two events, use the details you find 
+when digging into the events to rank ALL of the
+historical events from most to least similar to the modern event.
 A simple connection like sharing a name is not worth much especially on its own.
+If none of the historical events is a genuine match, set no_good_match to true.
 """
 
 
