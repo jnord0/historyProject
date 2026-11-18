@@ -55,7 +55,7 @@ MODELS = {
 N_TEST_EVENTS = 150   # modern events to test on (spread across event types)
 N_CANDIDATES = 15     # historical candidates shown per event
 SEED = 42             # fixed so the test set and candidate lists never change
-WORKERS = 4           # parallel API calls per model
+WORKERS = 4           # parallel API calls per model (all models run at the same time)
 MODERN_CHARS = 1500   # how much of the modern event's summary to show
 CANDIDATE_CHARS = 450 # how much of each candidate's summary to show
 
@@ -130,7 +130,7 @@ def build_test_set(combined):
 def build_candidates(test, combined, rankings, ev):
     """Same shuffled candidate list per event for every model. Saved once, then reused."""
     if os.path.exists(CANDIDATES):
-        with open(CANDIDATES) as f:
+        with open(CANDIDATES, encoding="utf-8") as f:
             return {c["modern_qid"]: c for c in map(json.loads, f)}
     rng = random.Random(SEED)
     historical_pool = sorted(set(rankings["historical_qid"]))
@@ -171,7 +171,7 @@ def build_candidates(test, combined, rankings, ev):
                             "year": int(ev.loc[h, "year"]), "source": s}
                            for i, (h, s) in enumerate(items)],
         }
-    with open(CANDIDATES, "w") as f:
+    with open(CANDIDATES, "w", encoding="utf-8") as f:
         for c in out.values():
             f.write(json.dumps(c, ensure_ascii=False) + "\n")
     print(f"candidate lists: {len(out)} -> {CANDIDATES}")
@@ -262,18 +262,18 @@ def parse(resp, cand):
 def done_pairs():
     if not os.path.exists(RESPONSES):
         return set()
-    with open(RESPONSES) as f:
+    with open(RESPONSES, encoding="utf-8") as f:
         return {(r["model"], r["modern_qid"]) for r in map(json.loads, f) if r.get("parse_ok")}
 
 
 def write_rankings():
     if not os.path.exists(RESPONSES):
         return
-    with open(RESPONSES) as f:
+    with open(RESPONSES, encoding="utf-8") as f:
         recs = [r for r in map(json.loads, f) if r.get("parse_ok")]
     # keep the latest successful reply per (model, event)
     latest = {(r["model"], r["modern_qid"]): r for r in recs}
-    with open(CANDIDATES) as f:
+    with open(CANDIDATES, encoding="utf-8") as f:
         cands = {c["modern_qid"]: c for c in map(json.loads, f)}
     rows = []
     for (model, q), r in latest.items():
@@ -328,12 +328,15 @@ def main():
         return
 
     done = done_pairs()
-    lock = threading.Lock()
+    file_lock = threading.Lock()   # one writer at a time for ai_responses.jsonl
     os.makedirs(RESULTS, exist_ok=True)
 
-    for model, opts in models.items():
+    def run_model(model, opts):
+        """Run every test event for one model with its own pool of WORKERS threads.
+        All models run at the same time; each model has its own rate limit, so this
+        is about len(MODELS) times faster than running them one after another."""
         todo = [q for q in order if (model, q) not in done]
-        print(f"\n{model}: {len(order) - len(todo)} done already, {len(todo)} to go")
+        print(f"{model}: {len(order) - len(todo)} done already, {len(todo)} to go")
         tokens_in = tokens_out = 0
 
         def work(q):
@@ -343,8 +346,8 @@ def main():
             rec.update(model=model, modern_qid=q, time=time.strftime("%Y-%m-%d %H:%M:%S"),
                        input_tokens=getattr(usage, "input_tokens", None),
                        output_tokens=getattr(usage, "output_tokens", None))
-            with lock:
-                with open(RESPONSES, "a") as f:
+            with file_lock:
+                with open(RESPONSES, "a", encoding="utf-8") as f:
                     f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             return rec
 
@@ -354,9 +357,11 @@ def main():
                 try:
                     rec = fut.result()
                 except Exception as err:
-                    print(f"  ERROR on {futures[fut]}: {type(err).__name__}: {str(err)[:200]}")
+                    print(f"  {model}: ERROR on {futures[fut]}: {type(err).__name__}: {str(err)[:200]}")
                     if "model" in str(err).lower() and "not" in str(err).lower():
-                        print("  (model ID problem: fix MODELS and rerun)")
+                        print(f"  {model}: model ID problem, skipping this model (fix MODELS and rerun)")
+                        for f in futures:
+                            f.cancel()   # don't keep sending calls that will fail
                         break
                     continue
                 tokens_in += rec["input_tokens"] or 0
@@ -364,8 +369,17 @@ def main():
                 flag = "" if rec["parse_ok"] and not rec["missing_labels"] else \
                        ("  [unparseable]" if not rec["parse_ok"] else f"  [{len(rec['missing_labels'])} missing]")
                 if i % 10 == 0 or flag or i == len(todo):
-                    print(f"  {i}/{len(todo)}{flag}")
-        print(f"  tokens this run: {tokens_in:,} in, {tokens_out:,} out")
+                    print(f"  {model}: {i}/{len(todo)}{flag}")
+        print(f"  {model}: finished, tokens this run: {tokens_in:,} in, {tokens_out:,} out")
+
+    # One thread per model; each of those runs its own pool of WORKERS API calls.
+    with ThreadPoolExecutor(max_workers=len(models)) as model_pool:
+        jobs = {model_pool.submit(run_model, m, o): m for m, o in models.items()}
+        for job in as_completed(jobs):
+            try:
+                job.result()
+            except Exception as err:
+                print(f"  {jobs[job]}: stopped: {type(err).__name__}: {str(err)[:200]}")
 
     write_rankings()
 

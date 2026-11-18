@@ -9,8 +9,6 @@ This project takes modern events (2000 and later), such as wars, coups, protests
 
 Every system ranks the **same 15 candidates** for the **same 150 test events**, so the results can be compared directly.
 
-> See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for open problems before you rerun anything.
-
 ## Pipeline
 
 All scripts live in `Project2/` and are run from that folder, in this order:
@@ -132,6 +130,5 @@ Project2/
   events_historical.parquet      events before 2000
   events_modern.parquet          events from 2000 on
   features/                      cached sentence embeddings + qid order
-  results/                       baseline rankings, test set, candidates, AI responses
-KNOWN_ISSUES.md                  open problems from code review
+  results/                       baseline rankings, test set, candidates, AI responses, evaluation
 ```

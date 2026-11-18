@@ -39,7 +39,7 @@ SCORES_CACHE = os.path.join(RESULTS, "eval_scores.parquet")
 # 1. Load what the models saw
 # ---------------------------------------------------------------------------
 def load_candidates():
-    with open(os.path.join(RESULTS, "candidates.jsonl")) as f:
+    with open(os.path.join(RESULTS, "candidates.jsonl"), encoding="utf-8") as f:
         return {c["modern_qid"]: c for c in map(json.loads, f)}
 
 
