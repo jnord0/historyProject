@@ -1,0 +1,11 @@
+# Secrets: never commit real keys (the .env.example template is fine)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# build.py scratch output
+Project2/parts/

@@ -39,7 +39,7 @@ Python 3.10+.
 pip install requests pandas pyarrow duckdb huggingface_hub scikit-learn sentence-transformers bert-score scipy openai python-dotenv
 ```
 
-API keys go in environment variables or in a `.env` file inside `Project2/`. **Never commit keys.**
+API keys go in environment variables or in a `.env` file inside `Project2/`. To make one, copy the template (`Copy-Item .env.example .env` on Windows, `cp .env.example .env` on Mac/Linux) and fill in your keys. `.env` is in `.gitignore`. **Never commit keys.**
 
 ```
 OPENAI_API_KEY=sk-...    # needed for ai_model.py
