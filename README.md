@@ -35,9 +35,35 @@ The list is shuffled with a fixed seed (42). The models never see where each can
 
 Python 3.10+.
 
+### Install packages
+
+Install everything at once:
+
 ```bash
-pip install requests pandas pyarrow duckdb huggingface_hub scikit-learn sentence-transformers bert-score scipy openai python-dotenv
+pip install pandas pyarrow python-dotenv openai scipy scikit-learn sentence-transformers bert-score requests duckdb huggingface_hub
 ```
+
+Or install only what the scripts you'll run need:
+
+| Script | Packages |
+|---|---|
+| all scripts | `pandas` `pyarrow` (to read the `.parquet` files) `python-dotenv` (loads your `.env`) |
+| `ai_model.py` | `openai` |
+| `evaluate.py` | `scipy` `scikit-learn`, plus `bert-score` unless you use `--no-bertscore` |
+| `baseline.py` | `scikit-learn` `sentence-transformers` `bert-score` |
+| `combine.py` | nothing extra |
+| `build.py` | `requests` `duckdb` `huggingface_hub` |
+
+`sentence-transformers` and `bert-score` both install **PyTorch**, a large download (several hundred MB), so expect a few minutes. The first time it runs, each one also downloads its model (`all-MiniLM-L6-v2` or `distilbert-base-uncased`).
+
+To check AI results only, the minimum is:
+
+```bash
+pip install pandas pyarrow python-dotenv openai scipy scikit-learn
+python evaluate.py --no-bertscore
+```
+
+### API keys
 
 API keys go in environment variables or in a `.env` file inside `Project2/`. To make one, copy the template (`Copy-Item .env.example .env` on Windows, `cp .env.example .env` on Mac/Linux) and fill in your keys. `.env` is in `.gitignore`. **Never commit keys.**
 
@@ -67,7 +93,11 @@ python ai_model.py --models gpt-5-mini   # run only some models
 python evaluate.py                 # add --no-bertscore for a faster run
 ```
 
-On Mac/Linux, use `python3` if `python` points to Python 2.
+Notes:
+- **Run every script from inside `Project2/`** in a terminal. The scripts look for `results/` and `features/` in whatever folder they're run from. VS Code's ▶ Run button usually runs them from the repo root, so they fail to find their files.
+- On Windows PowerShell, paste commands one at a time, or join them with `;`.
+- On Mac/Linux, use `python3` if `python` points to Python 2.
+- The first full `evaluate.py` run scores about 2,250 pairs with BERTScore (a few minutes on CPU) and caches them in `results/eval_scores.parquet`.
 
 ### Important: rerunning the AI models
 `ai_model.py` skips any (model, event) pair that is already in `results/ai_responses.jsonl`. To run again after changing the prompt or models, **rename or move** `ai_responses.jsonl` and `ai_rankings.csv` first. Renaming keeps the old run so you can compare the two.
