@@ -65,17 +65,18 @@ CANDIDATES = os.path.join(RESULTS, "candidates.jsonl")
 RESPONSES = os.path.join(RESULTS, "ai_responses.jsonl")
 RANKINGS = os.path.join(RESULTS, "ai_rankings.csv")
 
-INSTRUCTIONS = """You are a historian comparing events.
-You will be given one MODERN event and a numbered list of HISTORICAL events.
-Rank ALL of the historical events from most to least similar to the modern event.
+INSTRUCTIONS = """
 
-Judge similarity by the substance of the events: what kind of event it was, its causes,
-the actors and dynamics involved, its scale, and its outcomes and consequences.
-Do not rank an event highly just because it shares a place name, a word, or a country.
-Use the summaries provided and your own historical knowledge.
+your job is to take a historical and a modern event and then analyze them to dig out; 
+context, possible meanings/implications, a timeline of the event and its causes and effects, 
+dynamics or actors involved, and to gather other details that are beyond surface level. 
 
-Also say whether ANY candidate is a genuinely good historical analogy (no_good_match = true if none is),
-and briefly explain why your top choice is the best match."""
+You are not allowed to access the web, rely on any historical data you were trained on, or any other external sources.
+It is acceptable if nothing is similar, you do not have to force a match. that being said ensure you thoroughly analyze the events.
+
+when comparing the two events, use the details you find when digging into the events to create their ranking.
+A simple connection like sharing a name is not worth much especially on its own.
+"""
 
 
 # ---------------------------------------------------------------------------
